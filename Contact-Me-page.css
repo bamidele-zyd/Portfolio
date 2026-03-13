@@ -1,0 +1,173 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 20px;
+}
+li a{
+    text-decoration: none;
+    color: brown;
+}
+.nav-link a:hover{
+    color: rebeccapurple;
+}
+.chat{
+    background-color: hsl(136, 65%, 51%);
+    border-radius: 100px;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+}
+.container button:hover{
+    background-color: hsla(136, 65%, 51%, 0.719);
+}
+.bi-chat-text-fill{
+    color: white;
+}
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 50px;
+}
+h1{
+    font-size: 60px;
+}
+.reach-out p{
+    font-size: 30px;
+    width: 750px;
+    color: gray;
+}
+.envelope-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 30px;
+}
+.envelope-btn button{
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid gray ;
+    width: 40px;
+    height: 40px;
+}
+.envelope-btn button:hover{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.envelope-btn p{
+    font-size: 20px;
+}
+.envelope-btn p a{
+    text-decoration: none;
+}
+
+.bi-envelope{
+    color: gray;
+    font-size: 20px;
+}
+.tel-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 20px;
+}
+.tel-btn button{
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid gray ;
+    width: 40px;
+    height: 40px;
+}
+.tel-btn button:hover{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.tel-btn p{
+    font-size: 20px;
+}
+.tel-btn p a{
+    text-decoration: none;
+}
+.bi-telephone{
+    color: gray;
+    font-size: 20px;
+}
+.contact-image img{
+    height: 430px;
+    width: 430px;
+    padding: 30px;
+    border-radius: 430px;
+    border: 1px solid;
+    margin-right: 100px;
+}
+.left p{
+    font-size: 30px;
+    color: gray;
+}
+.left-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 30px;
+}
+.touch{
+    text-decoration: none;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+}
+.project{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+}
+.project:hover{
+    background-color: black;
+    color: white;
+}
+.touch:hover{
+    background-color: rgb(57, 57, 92);
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    padding: 20px 50px 30px 50px;
+}
+.right{
+    color: gray;
+}
+span{
+    color: rebeccapurple;
+}
