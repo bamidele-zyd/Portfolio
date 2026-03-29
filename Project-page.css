@@ -243,25 +243,72 @@ span{
     }
 }
 @media screen and (max-width: 500px){
+    .container{
+    width: 400px;
+    }
+    nav{
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .nav-ul li{
+        font-size: 14px;
+    }
+    nav p{
+        position: absolute;
+        top: 17px;
+        left: 0;
+        padding-left: 10px;
+        font-size: 14px;
+    }
     .project-section{
         margin-left: 0px;
-        padding-left: 0px;
+        padding-left: 10px;
         padding-right: 0px;
+        width: 400px;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+    .heading p{
+        font-size: 14px;
     }
     .easybank img{
-        width: 475px;
+        width: 400px;
+    }
+    .easybank h2{
+        font-size: 20px;
+    }
+    .easybank p{
+        font-size: 14px;
     }
     .cbrlp img{
-        width: 475px;
+        width: 400px;
+    }
+    .cbrlp h2{
+        font-size: 20px;
+    }
+    .cbrlp p{
+        font-size: 14px;
     }
     .footer-section{
-        padding-left: 0px;
+        padding-left: 10px;
         padding-right: 20px;
+        width: 400px;
+    }
+    .left p{
+        font-size: 14px;
     }
     .left-btn{
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 10px;
+    }
+    .left-btn a{
+        font-size: 14px;
+    }
+    .right p{
+        font-size: 14px;
     }
 }

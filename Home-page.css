@@ -312,21 +312,26 @@ li a{
     }
 }
 @media screen and (max-width: 500px){
+    .container{
+        width: 400px;
+    }
     nav{
-        margin-right: 20px;
-        width: 450px;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .nav-ul li{
+        font-size: 14px;
     }
     nav p{
         position: absolute;
         top: 17px;
         left: 0;
-        padding-left: 25px;
+        padding-left: 10px;
+        font-size: 14px;
     }
     section{
-        width: 440px;
-    }
-    p{
-        font-size: 25px;
+        width: 400px;
     }
     .welcome-section{
         display: flex;
@@ -335,66 +340,111 @@ li a{
         align-items: center;
         row-gap: 100px;
         padding: 50px 0;
-        margin-left: 10px;
-        width: 440px;
+        padding-left: 10px;
+        width: 400px;
     }
     .welcome-text p{
         width: 400px;
-        font-size: 30px;
+        font-size: 14px;
     }
     .welcome-text h1{
-        font-size: 70px;
+        font-size: 25px;
         width: 40px;
     }
+    .welcome-btn a{
+        font-size: 14px;
+    }
     .welcome-image img{
-        width: 350px;
-        height: 350px;
-        border-radius: 350px;
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
     }
     .project-section{
-        margin-right: 20px;
-        width: 450px;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 0;
     }
     .project-section h1{
-        font-size: 70px;
+        font-size: 25px;
     }
     .project-images{
         display: flex;
         flex-direction: column;
         row-gap: 100px;
     }
+    .project-images h2{
+        font-size: 20px;
+    }
     .easybank img{
-        width: 400px;
+        width: 250px;
     }
     .easybank p{
         width: 400px;
+        font-size: 14px;
     }
     .cbrlp img{
-        width: 400px;
+        width: 250px;
     }
     .cbrlp p{
         width: 400px;
+        font-size: 14px;
     }
     .experience-section{
-        margin-right: 20px;
-        width: 450px;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .experience-section h1{
+        font-size: 25px;
     }
     .info{
         display: flex;
         flex-direction: column;
         row-gap: 100px;
     }
+    .info a{
+        font-size: 14px;
+    }
+    .info-content p{
+        font-size: 14px;
+    }
+    .info-content ul li{
+        font-size: 14px;
+    }
     .skill-section{
-        margin-right: 20px;
-        width: 450px;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .skill-section h1{
+        font-size: 25px;
     }
     .skill-list{
         display: flex;
         flex-direction: column;
         row-gap: 100px;
     }
+    .skill-list h2{
+        font-size: 20px;
+    }
+    .skill-list p{
+        font-size: 14px;
+    }
+    .skill-list ul li{
+        font-size: 14px;
+    }
     .my-story-section{
-        margin-right: 20px;
-        width: 450px;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .my-story h1{
+        font-size: 25px;
+    }
+    .my-story p{
+        font-size: 14px;
+    }
+    .footer-container p{
+        font-size: 14px;
     }
 }

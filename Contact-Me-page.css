@@ -332,70 +332,99 @@ span{
 }
 @media screen and (max-width: 500px){
     body{
-        width: 430px;
+        width: 400px;
     }
     section{
-        width: 430px;
+        width: 400px;
+    }
+    .container{
+        width: 400px;
     }
     nav{
-        padding-right: 20px;
-        padding-left: 20px;
-        width: 450px;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .nav-ul li{
+        font-size: 14px;
+    }
+    nav p{
+        position: absolute;
+        top: 17px;
+        left: 0;
+        padding-left: 10px;
+        font-size: 14px;
     }
     .heading{
         width: 400px;
     }
     .get-in-touch{
-        flex-wrap: wrap;
-        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 100px;
+        padding-left: 10px;
         padding-right: 0px;
         margin-left: 0;
-        width: 420px;
+        width: 400px;
     }
     .get-in-touch p{
         width: 400px;
         flex-wrap: wrap;
     }
     .contact-image img{
-        height: 400px;
-        width: 400px;
-        border-radius: 400px;
+        height: 250px;
+        width: 250px;
         margin-right: 0;
+        border-radius: 250px;
     }
     .reach-out{
         flex-wrap: wrap;
-        width: 420px;
+        width: 400px;
     }
     .reach-out h1{
         width: 400px;
+        font-size: 25px;
     }
-    .get-in-touch{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        row-gap: 100px;
+    .reach-out p{
+        font-size: 14px;
     }
     .envelope-btn{
         width: 400px;
     }
+    .envelope-btn a{
+        font-size: 14px;
+    }
+    .bi-envelope{
+        font-size: 14px;
+    }
     .tel-btn{
         width: 400px;
     }
+    .tel-btn a{
+        font-size: 14px;
+    }
+    .bi-telephone{
+        font-size: 14px;
+    }
     .footer-section{
-        display: flex;
-        align-items: end;
-        padding-left: 0px;
+        padding-left: 10px;
         padding-right: 0px;
-        width: 450px;
+        width: 400px;
+    }
+    .left p{
+        font-size: 14px;
     }
     .left-btn{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
         row-gap: 10px;
     }
-    .right{
-        width: 80px;
+    .left-btn a{
+        font-size: 14px;
+    }
+    .right p{
+        font-size: 14px;
     }
 }
