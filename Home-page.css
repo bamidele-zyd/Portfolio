@@ -312,11 +312,14 @@ li a{
     }
 }
 @media screen and (max-width: 500px){
+    body{
+        width: 350px;
+    }
     .container{
-        width: 400px;
+        width: 350px;
     }
     nav{
-        width: 400px;
+        width: 350px;
         padding-left: 10px;
         padding-right: 0;
     }
@@ -331,7 +334,7 @@ li a{
         font-size: 14px;
     }
     section{
-        width: 400px;
+        width: 350px;
     }
     .welcome-section{
         display: flex;
@@ -341,10 +344,10 @@ li a{
         row-gap: 100px;
         padding: 50px 0;
         padding-left: 10px;
-        width: 400px;
+        width: 350px;
     }
     .welcome-text p{
-        width: 400px;
+        width: 350px;
         font-size: 14px;
     }
     .welcome-text h1{
@@ -360,7 +363,7 @@ li a{
         border-radius: 250px;
     }
     .project-section{
-        width: 400px;
+        width: 350px;
         padding-left: 10px;
         padding-right: 0;
     }
@@ -379,18 +382,18 @@ li a{
         width: 250px;
     }
     .easybank p{
-        width: 400px;
+        width: 350px;
         font-size: 14px;
     }
     .cbrlp img{
         width: 250px;
     }
     .cbrlp p{
-        width: 400px;
+        width: 350px;
         font-size: 14px;
     }
     .experience-section{
-        width: 400px;
+        width: 350px;
         padding-left: 10px;
         padding-right: 0;
     }
@@ -412,7 +415,7 @@ li a{
         font-size: 14px;
     }
     .skill-section{
-        width: 400px;
+        width: 350px;
         padding-left: 10px;
         padding-right: 0;
     }
@@ -434,7 +437,7 @@ li a{
         font-size: 14px;
     }
     .my-story-section{
-        width: 400px;
+        width: 350px;
         padding-left: 10px;
         padding-right: 0;
     }

@@ -243,11 +243,14 @@ span{
     }
 }
 @media screen and (max-width: 500px){
+    body{
+        width: 350px;
+    }
     .container{
-    width: 400px;
+    width: 350px;
     }
     nav{
-        width: 400px;
+        width: 350px;
         padding-left: 10px;
         padding-right: 0;
     }
@@ -265,7 +268,7 @@ span{
         margin-left: 0px;
         padding-left: 10px;
         padding-right: 0px;
-        width: 400px;
+        width: 350px;
     }
     .heading h1{
         font-size: 25px;
@@ -274,7 +277,7 @@ span{
         font-size: 14px;
     }
     .easybank img{
-        width: 400px;
+        width: 350px;
     }
     .easybank h2{
         font-size: 20px;
@@ -283,7 +286,7 @@ span{
         font-size: 14px;
     }
     .cbrlp img{
-        width: 400px;
+        width: 350px;
     }
     .cbrlp h2{
         font-size: 20px;
@@ -294,7 +297,7 @@ span{
     .footer-section{
         padding-left: 10px;
         padding-right: 20px;
-        width: 400px;
+        width: 350px;
     }
     .left p{
         font-size: 14px;
