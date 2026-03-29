@@ -6,17 +6,28 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+body{
+    position: relative;
+}
 nav{
     display: flex;
     justify-content: space-between;
+    column-gap: 20px;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px 40px;
     font-size: 20px;
 }
+.check{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
 .nav-ul{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     list-style: none;
     column-gap: 20px;
 }
@@ -35,7 +46,7 @@ li a{
     height: 40px;
 }
 .container button:hover{
-    background-color: hsla(136, 65%, 51%, 0.719);
+    background-color: hsla(136, 65%, 51%, 0.719)
 }
 .bi-chat-text-fill{
     color: white;
@@ -85,6 +96,7 @@ span{
 }
 .left-btn{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 20px;
     padding-top: 30px;
@@ -123,8 +135,133 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: self-end;
+    column-gap: 30px;
     padding: 20px 50px 30px 50px;
 }
 .right{
     color: gray;
+}
+
+
+@media screen and (max-width: 870px){
+     nav .btn{
+        display: none;
+    }
+    .chat{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .hamburger img{
+        width: 35px;
+    }
+    .nav-ul{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+        margin-top: 40px;
+        background-color: hsl(136, 65%, 51%);
+        border: 1px solid skyblue;
+        border-radius: 10px;
+        transform: translateY(-200%); 
+        transition: all .5s;
+        z-index: 999;
+    }
+    .nav-ul li{
+        padding: 15px 0;
+        font-size: 20px;
+    }
+    li a{
+        color: hsl(233, 26%, 24%);
+        font-weight: 400;
+    }
+    li a:hover{
+        color: rebeccapurple;
+    }
+    nav ul li a:hover::before{
+        opacity: 0;
+    }
+    #toggle:checked ~ .nav-ul{
+        transform: translateY(1%); 
+    }
+    #toggle:checked ~ .hamburger{
+        border: 2px solid hsl(136, 65%, 51%);
+        border-radius: 7px;
+        padding: 4px;
+    }
+    nav p{
+        position: absolute;
+        top: 25px;
+        left: 0;
+        padding-left: 50px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 871px){
+    .project-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+        padding: 20px 0;
+        margin-left: 10px;
+        width: 821px;
+    }
+    .heading p{
+        width: 810px;
+    }
+    .project-images{
+        width: 810px;
+    }
+    .easybank img{
+        width: 810px;
+    }
+    .cbrlp img{
+        width: 810px;
+    }
+    .footer-section{
+        padding-right: 30px;
+        padding-left: 15px;
+        flex-wrap: wrap;
+    }
+    .left-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 10px;
+    }
+    .right{
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+    }
+}
+@media screen and (max-width: 500px){
+    .project-section{
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .easybank img{
+        width: 475px;
+    }
+    .cbrlp img{
+        width: 475px;
+    }
+    .footer-section{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    .left-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
 }
