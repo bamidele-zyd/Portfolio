@@ -365,11 +365,12 @@ span{
         row-gap: 100px;
         padding-left: 10px;
         padding-right: 0px;
+        padding-top: 0;
         margin-left: 0;
         width: 350px;
     }
     .get-in-touch p{
-        width: 350px;
+        width: 300px;
         flex-wrap: wrap;
     }
     .contact-image img{
@@ -383,14 +384,18 @@ span{
         width: 350px;
     }
     .reach-out h1{
-        width: 350px;
+        width: 300px;
         font-size: 25px;
+        padding-left: 20px;
     }
     .reach-out p{
         font-size: 14px;
+        width: 300px;
+        padding-left: 20px;
     }
     .envelope-btn{
-        width: 350px;
+        width: 300px;
+        padding-left: 20px;
     }
     .envelope-btn a{
         font-size: 14px;
@@ -399,7 +404,8 @@ span{
         font-size: 14px;
     }
     .tel-btn{
-        width: 350px;
+        width: 300px;
+        padding-left: 20px;
     }
     .tel-btn a{
         font-size: 14px;
@@ -414,6 +420,7 @@ span{
     }
     .left p{
         font-size: 14px;
+        padding-left: 20px;
     }
     .left-btn{
         display: flex;

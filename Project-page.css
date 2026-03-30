@@ -268,31 +268,43 @@ span{
         margin-left: 0px;
         padding-left: 10px;
         padding-right: 0px;
+        padding-top: 0;
         width: 350px;
     }
     .heading h1{
         font-size: 25px;
+        padding-left: 20px;
     }
     .heading p{
         font-size: 14px;
+        width: 300px;
+        padding-left: 20px;
     }
     .easybank img{
-        width: 350px;
+        width: 300px;
+        margin-left: 20px;
     }
     .easybank h2{
         font-size: 20px;
+        padding-left: 20px;
     }
     .easybank p{
         font-size: 14px;
+        width: 300px;
+        padding-left: 20px;
     }
     .cbrlp img{
-        width: 350px;
+        width: 300px;
+        margin-left: 20px;
     }
     .cbrlp h2{
         font-size: 20px;
+        padding-left: 20px;
     }
     .cbrlp p{
         font-size: 14px;
+        width: 300px;
+        padding-left: 20px;
     }
     .footer-section{
         padding-left: 10px;
@@ -301,6 +313,7 @@ span{
     }
     .left p{
         font-size: 14px;
+        padding-left: 20px;
     }
     .left-btn{
         display: flex;

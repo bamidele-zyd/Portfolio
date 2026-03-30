@@ -342,12 +342,17 @@ li a{
         justify-content: center;
         align-items: center;
         row-gap: 100px;
-        padding: 50px 0;
+        padding-top: 0;
+        padding-bottom: 50px;
         padding-left: 10px;
+        padding-right: 0;
         width: 350px;
     }
+    .welcome-text{
+        
+    }
     .welcome-text p{
-        width: 350px;
+        width: 300px;
         font-size: 14px;
     }
     .welcome-text h1{
@@ -366,14 +371,17 @@ li a{
         width: 350px;
         padding-left: 10px;
         padding-right: 0;
+        padding-top: 100px;
     }
     .project-section h1{
         font-size: 25px;
+        padding-left: 20px;
     }
     .project-images{
         display: flex;
         flex-direction: column;
         row-gap: 100px;
+        padding-left: 20px;
     }
     .project-images h2{
         font-size: 20px;
@@ -382,28 +390,32 @@ li a{
         width: 250px;
     }
     .easybank p{
-        width: 350px;
+        width: 300px;
         font-size: 14px;
     }
     .cbrlp img{
         width: 250px;
     }
     .cbrlp p{
-        width: 350px;
+        width: 300px;
         font-size: 14px;
     }
     .experience-section{
         width: 350px;
         padding-left: 10px;
         padding-right: 0;
+        padding-top: 100px;
     }
     .experience-section h1{
         font-size: 25px;
+        padding-left: 20px;
     }
     .info{
         display: flex;
         flex-direction: column;
         row-gap: 100px;
+        width: 300px;
+        padding-left: 20px;
     }
     .info a{
         font-size: 14px;
@@ -418,14 +430,18 @@ li a{
         width: 350px;
         padding-left: 10px;
         padding-right: 0;
+        padding-top: 100px;
     }
     .skill-section h1{
         font-size: 25px;
+        padding-left: 20px;
     }
     .skill-list{
         display: flex;
         flex-direction: column;
         row-gap: 100px;
+        width: 300px;
+        padding-left: 20px;
     }
     .skill-list h2{
         font-size: 20px;
@@ -440,12 +456,16 @@ li a{
         width: 350px;
         padding-left: 10px;
         padding-right: 0;
+        padding-top: 100px;
     }
     .my-story h1{
         font-size: 25px;
+        padding-left: 20px;
     }
     .my-story p{
         font-size: 14px;
+        width: 300px;
+        padding-left: 20px;
     }
     .footer-container p{
         font-size: 14px;
