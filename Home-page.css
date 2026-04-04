@@ -349,7 +349,9 @@ li a{
         width: 350px;
     }
     .welcome-text{
-        
+        margin-top: -50px;
+        position: relative;
+        z-index: -1;
     }
     .welcome-text p{
         width: 300px;
